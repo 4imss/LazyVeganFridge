@@ -7,7 +7,7 @@
 <br />
 
 ### Intro:
-Hi Rudy welkom bij onze Lazy vegan fridge. Hier vind je lekkere recepten voor een gezond vegan eetpatroon enjoy!  
+Welkom bij onze Lazy vegan fridge. Hier vind je lekkere recepten voor een gezond vegan eetpatroon enjoy!  
 <br />
 
 ### Getting started:
