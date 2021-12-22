@@ -1,0 +1,259 @@
+﻿/* Layout body styling */
+body {
+    padding-bottom: 20px;
+    padding-top: 0;
+    background-color: #F4F9EB;
+    font-family: "Arial black";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    color: #9c7e49;
+    text-align: center;
+}
+
+.colLeft {
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    box-shadow: 0px -4px 9px 1px darkgrey;
+    background-color: #E3D7B8;
+    width: 24%;
+}
+
+.leftH2 {
+    margin-left: 8px;
+    margin-top: 40px;
+    margin-bottom: 15px;
+}
+
+.row {
+    width: 108%;
+}
+
+.login {
+    margin-left: 150px;
+    margin-right: 150px;
+}
+
+/* navbar layout styling*/
+.navbar-brand {
+    margin-top: -7px;
+    color: white;
+    font-size: 30px;
+}
+
+    .navbar-brand:hover {
+        color: #9c7e49;
+    }
+
+.navstyle {
+    margin-bottom: 0;
+    background-color: #DFB772;
+}
+
+.navbar-inverse {
+    background-color: #DFB772;
+    position: inherit;
+    border-color: #DFB772;
+    margin-bottom: 0px;
+}
+
+    .navbar-inverse .navbar-collapse {
+        position: absolute;
+    }
+
+.logo {
+    padding-top: 10px;
+    color: white;
+}
+
+.navbar-inverse .navbar-brand {
+    color: white;
+    font-size: 30px;
+}
+
+.navbar-inverse .navbar-nav > li > a {
+    color: white;
+}
+
+/* Fridge page Left row styling */
+.imgCake {
+    width: 100%;
+    margin-left: 6px;
+}
+
+.imgs {
+    width: 25%;
+    height: 175px;
+    margin-top: 8%;
+    margin-left: 8%;
+}
+
+.categories {
+    padding: 10px 0px 0px 10px;
+    font-size: 20px;
+}
+
+.groupedIngredients {
+    font-size: 16px;
+    display: inline-table;
+}
+
+.ingredients {
+    padding: 0px 20px 5px 20px;
+    font-size: 15px;
+    color: #7D481E;
+}
+
+/* accordion styling*/
+.tableStyle {
+    margin-left: 15px;
+    border-collapse: inherit;
+}
+
+.btn-link {
+    color: #323130;
+    font-size: 20px;
+}
+
+    .btn-link:hover {
+        color: #323130;
+    }
+
+.btn-ing {
+    text-align: center;
+    margin-left: 66%;
+    margin-bottom: 20px;
+    font-size: 17px;
+}
+
+.card-header {
+    background-color: #E3D7B8;
+    border-bottom: none;
+}
+
+.card {
+    background-color: #E3D7B8;
+    border: none;
+}
+
+.card-body {
+    background-color: #E3D7B8;
+    padding: 1.75rem;
+}
+
+.crd-div {
+    margin-top: 125px;
+    width: 41%;
+    text-align: center;
+    margin-left: 28%;
+}
+
+.crd-text {
+    padding-bottom: 20px;
+}
+
+.form-check-inline .form-check-input {
+    cursor: pointer;
+}
+
+/* in general styling */
+header {
+    display: flex;
+}
+
+a {
+    color: #9c7e49;
+}
+
+    a:hover {
+        color: #9c7e49;
+        text-decoration: underline;
+    }
+
+h3 {
+    text-align: center;
+    margin-top: 85px;
+}
+
+
+/* Override the default bootstrap behavior where horizontal description lists 
+   will truncate terms that are too long to fit in the left column 
+*/
+
+.dl-horizontal dt {
+    white-space: normal;
+}
+
+/* Set width on the form input elements since they're 100% wide by default */
+
+input,
+select,
+textarea {
+    max-width: 280px;
+}
+
+/* Set padding to display errors that occur during databinding */
+
+.padding-error {
+    padding-top: 20px;
+}
+
+@media only screen and (max-width: 767px) {
+    .nofloat {
+        float: none;
+        padding: 10px 15px;
+    }
+
+    .colLeft {
+        width: 91%
+    }
+
+    .colRight {
+        display: none
+    }
+
+    .col-md-4 {
+        display: none;
+    }
+
+    .login {
+        margin-left: 10%;
+        justify-content: center;
+        margin-right: 0px;
+    }
+
+    .crd-div {
+        margin-top: 0px;
+        width: 100%;
+        text-align: center;
+        margin-left: 0px;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    .nofloat {
+        float: none;
+        padding: 10px 15px;
+    }
+
+    .colLeft {
+        width: 98%
+    }
+
+    .colRight {
+        display: none
+    }
+
+    .navbar-brand {
+        font-size: 25px
+    }
+}

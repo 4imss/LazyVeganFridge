@@ -1,0 +1,24 @@
+﻿@model LazyVeganFridge.ViewModels.IngredientCreateEdit
+
+<div class="crd-div">
+    <div class="card">
+        <div class="card-body">
+            <h2 class="card-title crd-text">You can make the following recipe!</h2>
+            @*showing the recipe that belongs to the filled in combination of ingredients*@
+            @if (Model.Recipes.Any())
+            {
+                foreach (var rep in Model.Recipes)
+                {
+                    <h4 class="card-subtitle mb-2 text-muted crd-text">@Html.DisplayFor(modelItem => rep.Name)</h4>
+                    <p class="card-text crd-text">@Html.DisplayFor(modelItem => rep.Description)</p>
+                }
+            }
+            @*Shows none if there is no recipe for the filled in combination*@
+            else
+            {
+                <h2 class="card-text crd-text"> None </h2>
+
+            }
+        </div>
+    </div>
+</div>
